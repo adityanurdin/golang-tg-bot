@@ -29,6 +29,10 @@ func main() {
 		log.Fatal(err)
 	}
 
+	b.Handle("/start", func(m *tb.Message) {
+		b.Send(m.Sender, "Hello my friends ")
+	})
+
 	b.Handle("/hello", func(m *tb.Message) {
 		b.Send(m.Sender, "You entered "+m.Payload)
 	})
