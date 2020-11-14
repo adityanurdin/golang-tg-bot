@@ -37,5 +37,9 @@ func main() {
 		b.Send(m.Sender, "You entered "+m.Payload)
 	})
 
+	b.Handle("/debug", func(m *tb.Message) {
+		b.Send(m.Sender, m)
+	})
+
 	b.Start()
 }

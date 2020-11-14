@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d438fd3-84e8-40fe-9796-e226e93693ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-    </list>
+    <list default="true" id="4d438fd3-84e8-40fe-9796-e226e93693ef" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +25,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../learn/go/startup" />
   </component>
   <component name="RunManager">
     <configuration name="go build github.com/adityanurdin/golang-tg-bot" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -50,10 +47,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add &quot;/start&quot; command" />
+    <option name="LAST_COMMIT_MESSAGE" value="add &quot;/start&quot; command" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="293" y="0" key="CommitChangelistDialog2" timestamp="1605210003762">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="293" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1605210003762" />
+    <state x="542" y="172" key="FileChooserDialogImpl" timestamp="1605210039201">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="542" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605210039201" />
     <state width="1495" height="214" key="GridCell.Tab.0.bottom" timestamp="1605117559094">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -70,5 +79,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1495" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1605117559094" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1605210011847">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1605210011847" />
   </component>
 </project>
