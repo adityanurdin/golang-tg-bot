@@ -38,7 +38,7 @@ func main() {
 	})
 
 	b.Handle("/debug", func(m *tb.Message) {
-		b.Send(m.Sender, m.Sender)
+		b.Send(m.Sender, m.Unixtime)
 	})
 
 	b.Start()
