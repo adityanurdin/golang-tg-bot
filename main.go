@@ -38,7 +38,7 @@ func main() {
 	})
 
 	b.Handle("/debug", func(m *tb.Message) {
-		b.Send(m.Chat, m.Payload)
+		b.Send(m.Chat, m)
 	})
 
 	b.Start()
