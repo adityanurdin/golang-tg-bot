@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
 
@@ -39,6 +40,7 @@ func main() {
 
 	b.Handle("/debug", func(m *tb.Message) {
 		b.Send(m.Chat, m)
+		fmt.Println("hallo semua")
 	})
 
 	b.Start()
